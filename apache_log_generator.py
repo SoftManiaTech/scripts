@@ -3,7 +3,7 @@ import random
 from datetime import datetime, timedelta
 
 # Base directory for all Apache server logs
-base_directory = "apache_servers"
+base_directory = "/tmp/apache_servers"
 
 # Generate unique timestamps
 # Start from the last known timestamp or the current time
